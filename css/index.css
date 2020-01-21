@@ -583,10 +583,9 @@ footer {
 /* mobile view */
 
 @media (max-width: 500px) {
-   body {
-       margin: 0;
-       margin-left: 35%;
-   }
+ 
+
+
     .nav {
         display: flex;
         flex-direction: column-reverse;
