@@ -585,10 +585,9 @@ footer {
 
 @media (max-width: 500px) {
     body {
-        margin-left: 26%;
-        width: 100vh;
+		width: 100vw;
+		margin-left:26%;
     }
-    
 
 
     .nav {
@@ -629,11 +628,12 @@ footer {
     }
     #top {
         margin: 0;
-        height: 60vh;
+		height: 50vh;
     }
     #top div {
         display: flex;
-        flex-direction: column;
+		flex-direction: column;
+
         margin-left: 0;
         margin-right: 0;
         align-content: center;
@@ -678,7 +678,7 @@ footer {
     
     .section1 {
         width: 100%;
-        height: 60vh;
+        height: 80vh;
         display: flex;
         flex-direction: column;
         margin: 0;
@@ -706,7 +706,7 @@ footer {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        height: 90vh;
+        height: 100vh;
         margin: 0;
     }
     
