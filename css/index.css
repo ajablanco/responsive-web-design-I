@@ -585,7 +585,7 @@ footer {
 
 @media (max-width: 500px) {
     body {
-        margin-left: 21.5%;
+        margin-left: 25%;
         width: 100vh;
     }
     
@@ -608,16 +608,19 @@ footer {
 
     }
     .nav nav a {
-        padding: 1.5%;
-        font-size: x-large;
+        padding: 5%;
+        font-size: large;
         width: 100%;
         justify-content: center;
         align-items: center;
-        border-top: 1px solid grey;
+        
         border-bottom: 1px solid grey;
         border-left: none;
         border-right: none;
 
+    }
+    #serv {
+        border-top: 1px solid grey;
     }
     .nav .logo {
         width: 20%;
